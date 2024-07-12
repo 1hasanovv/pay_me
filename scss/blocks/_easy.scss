@@ -1,0 +1,18 @@
+.easy-section {
+    padding: 150px 0 162px;
+}
+.container {
+}
+.easy{
+    @include Display($items:start, $space:space-between, $gap:0)
+}
+.easy__wrapper{
+    width: 445px;
+    padding-top: 110px;
+}
+.easy__wrapper > h2{
+    @include textStyle($MB:24px, $FS:48px, $FW:400, $CLR:$title-clr, $LH:48px, $CASE:capitalize);
+}
+.easy__wrapper > p{
+    @include textStyle($MB:0px, $FS:15px, $FW:400, $CLR:$title-clr, $LH:28px, $CASE:capitalize);
+}

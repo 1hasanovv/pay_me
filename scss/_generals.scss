@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    // font-family: Font name here;
+    background-color: #EDF3F8;
+    background-image: url(../images/bacround.png);
+    background-size: 780px 780px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+@media (max-width:850px){
+    .body{
+        background-image: url(../images/tablet-img.png);
+        background-size: 949px auto;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+}
+@media (max-width:689px){
+    .body{
+        background-image: url(../images/phone-img.png);
+        background-size: 780px auto;
+        background-repeat: no-repeat;
+        background-position: center top;
+    }
+}

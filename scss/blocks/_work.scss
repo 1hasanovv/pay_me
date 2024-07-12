@@ -1,0 +1,39 @@
+.work-section {
+    padding: 100px 0;
+    background: #1B262F;
+
+}
+.works{
+    background-image: url(../../images/work-bg.png);
+    background-repeat: no-repeat;
+    // background-size: 780px 780px;
+    background-position: left center;
+    @include Display($items:center, $space:space-between, $gap:0);
+}
+.work {
+    width: 445px;
+}
+.work > h2{
+    padding-bottom: 24px;
+    @include textStyle($MB:0px, $FS:48px, $FW:400, $CLR:$white-clr, $LH:56px, $CASE:inherit);
+}
+.work > p{
+    @include textStyle($MB:32px, $FS:15px, $FW:400, $CLR:$text-clr, $LH:28px, $CASE:inherit);
+}
+.work-btn{
+    @include buttonStyle($BTN_W:129px, $BTN_PY:15px, $BTN_BG_CLR:transparent,$BTN_BR_Radius:30px, $BTN_Border_CLR:$white-clr,$BTN_FS:16px,$BTN_FW:700px, $BTN_LH:17px, $BTN_CLR:$white-clr,$BTN_CASE:inherit);
+    text-align: center;
+    display: inline-block;
+}
+.work__list {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    // gap: 64px;
+}
+.work__item {
+    // gap: 64px;
+}
+.work__link{
+    gap: 64px;
+}

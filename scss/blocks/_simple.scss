@@ -1,0 +1,22 @@
+.simple-section {
+}
+.container {
+}
+.simple {
+    background-image: url(../../images/simple.png);
+    background-repeat: no-repeat;
+    // background-size: 780px 780px;
+    background-position: right center;
+    @include Display($items:center, $space:space-between, $gap:0px)
+}
+.simple__wrapper {
+    width: 433px;
+}
+.simple__wrapper > h2{
+    @include textStyle($MB:24px, $FS:48px, $FW:400, $CLR:$title-clr, $LH:56px, $CASE:inherit);
+}
+.simple__wrapper > p{
+    @include textStyle($MB:24px, $FS:15px, $FW:400, $CLR:$text-clr, $LH:28px, $CASE:inherit);
+}
+.simple__wrappers {
+}
