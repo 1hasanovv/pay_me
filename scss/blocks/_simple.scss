@@ -1,13 +1,14 @@
 .simple-section {
+    padding: 150px 0 146px;
+    background-image: url(../../images/simple.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right center;
 }
 .container {
 }
 .simple {
-    background-image: url(../../images/simple.png);
-    background-repeat: no-repeat;
-    // background-size: 780px 780px;
-    background-position: right center;
-    @include Display($items:center, $space:space-between, $gap:0px)
+    @include Display($items:center, $space:space-between, $gap:0px);
 }
 .simple__wrapper {
     width: 433px;
